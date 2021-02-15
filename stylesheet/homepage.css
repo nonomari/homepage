@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* <-------- headerはここから-------> */
+
+header {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(219, 21, 21, 0.7);
+  padding-top: 2px;
+  z-index: 100;
+}
+
+.header-title {
+  color:#f1f5f7;
+  font-size: 40px;
+  font-family: cursive;
+  margin-left: 100px;
+}
+/* <------- headerはここまで-------> */
+
+/* <-------info-container（名前と大学名）はここから-------> */
+
+
+#first-block {
+  background-image: url("../images/purin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.info-container {
+  background-color: rgba(228, 131, 171, 0.596);
+  height: 550px;
+  width: 600px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 12%;
+  left: 2%;
+}
+
+.introduction{
+  margin-top: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: cursive;
+}
+
+.attribution {
+  background-color: rgba(244, 248, 250, 0.6);
+  color: rgb(230, 28, 28);
+  padding: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+/* <-------info-container（名前と大学名）はここまで-------> */
+
+
+/* <-------info-container2(最近のニュース)ここから--------> */
+
+.introduction2{
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 40px;
+  margin-top: 30px;
+}
+
+
+.story-title {
+  font-size: 70px;
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.my-story {
+  margin-bottom: 10%;
+  font-family: cursive;
+}
+
+.my-story-title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  
+}
+span{
+  border-bottom: dotted 5px #6091d3;
+}
+.my-story-body {
+  margin: 30px;
+  font-family: cursive;
+}
+/* <-------info-container2(最近のニュース)ここまで-------> */
+
+
+/* <------- Twitter,FaceebookBTNここから-------> */
+
+.button-container {
+  width: 100px;
+  position: absolute;
+  top: 440px;
+  left: 115px;
+}
+
+.sns-btn {
+  color: rgb(31, 30, 29);
+  font-size: 20px;
+  height: 40px;
+  width:200px;
+  margin-left: 80px;
+}
+
+.mybtn-insta {
+  background: #e8f809;
+  border-radius: 10px;
+}
+
+.mybtn-tw {
+  background: #39a8f294;
+  border-radius: 10px;
+}
+
+
+/* <------- Twitter,FaceebookBTNここまで-------> */
+
